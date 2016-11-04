@@ -38,10 +38,10 @@ LIB_NAME = "#{NAME}_#{PLATFORM}"
 
 TARGETS  = {
   osx: {
-    macosx:          {archs: %w[i386 x86_64]},
+    macosx:          {archs: %w[x86_64]},
   },
   ios: {
-    iphonesimulator: {archs: %w[i386 x86_64]},
+    iphonesimulator: {archs: %w[x86_64]},
     iphoneos:        {archs: %w[armv7 armv7s arm64]}
   }
 }[PLATFORM]
